@@ -46,24 +46,6 @@ DYNRESDT acts as a Self-Adaptive Digital Twin operating on the Models@run.time p
 
 ## 🏗 System Architecture (MAPE-K)
 
-       +---------------------------------------------+
-       |                  KNOWLEDGE                  |
-       |  (Ward Config, Patient Database, History)   |
-       +------^------------^------------^------------+
-              |            |            |
-+--------+    |   +--------+    +-------+    +---------+
-|        |----+   |        |----+       +----+         |
-| MONITOR|------->| ANALYZE|--->| PLAN  |--->| EXECUTE |
-|        |        |        |    |       |    |         |
-+--------+        +--------+    +-------+    +---------+
-    ^                                             |
-    | (Sensors: Bed Occupancy / Queues)           | (Actuators: Open/Close/Move)
-    |                                             v
-+------------------------------------------------------+
-|             PHYSICAL SYSTEM / ENVIRONMENT            |
-|       (Emergency Observation Ward & Arrivals)        |
-+------------------------------------------------------+
-
 1. Knowledge (K): Maintains state models (Models@run.time), ward topology (4 Standard Rooms, 2 Overflow Offices, 1 Emergency Corridor), and control thresholds (Gamma_high = 0.80, Gamma_critical = 0.92).
 2. Monitor (M): Calculates live utilization rates and queue telemetry metrics.
 3. Analyze (A): Evaluates operational states (NORMAL_LOAD, HIGH_LOAD, CRISIS_MODE).
