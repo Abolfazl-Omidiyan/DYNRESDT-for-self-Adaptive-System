@@ -120,3 +120,4 @@ DYNRESDT/
   * Live Portal: deepsek.ir 
   * Institution: Shahid Beheshti University — Master’s in Information Technology (Enterprise Architecture)
   * Course: Self-Adaptive Systems
+  * Professor : Mehran Alidoostnia
