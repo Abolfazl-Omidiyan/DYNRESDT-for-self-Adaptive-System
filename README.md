@@ -111,17 +111,6 @@ DYNRESDT/
 ### Prerequisites
 * Python 3.8+ (Zero third-party library installations required for core backend execution)
 
-### Running Locally
-1. Clone the repository:
-   git clone https://github.com/your-username/dynresdt.git
-   cd dynresdt
-
-2. Launch the local application server:
-   python app.py
-
-3. Open your web browser and navigate to:
-   http://localhost:3000
-
 ---
 
 ## 🌐 Deployment Modes
