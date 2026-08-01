@@ -143,8 +143,9 @@ DYNRESDT/
 
 ## 👤 Author
 
-* Abolfazl Omidian
-  * Email: a.otryd@gmail.com
-  * Live Portal: deepsek.ir | ai.deepsek.ir
-  * Institution: Shahid Beheshti University — Master’s in Information Technology (System Architecture)
+* Abolfazl Omidiyan
+  * Email: realonidiyan@gmail.com
+  * LinkedIn : https://www.linkedin.com/in/abolfazl-omidiyan/
+  * Live Portal: deepsek.ir 
+  * Institution: Shahid Beheshti University — Master’s in Information Technology (Enterprise Architecture)
   * Course: Self-Adaptive Systems
